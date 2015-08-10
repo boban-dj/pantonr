@@ -1,0 +1,11 @@
+{
+  "name": "pantonr",
+  "version": "0.0.1",
+  "description": "pantone conversion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Greg Thompson (https://github.com/thompsongl)",
+  "license": "MIT"
+}
