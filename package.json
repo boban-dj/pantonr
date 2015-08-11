@@ -1,11 +1,33 @@
 {
   "name": "pantonr",
   "version": "0.0.1",
-  "description": "pantone conversion",
+  "description": "Convert PMS colors to other formats",
+  "author": "Greg Thompson (https://github.com/thompsongl)",
   "main": "index.js",
   "scripts": {
+    "build": "node tasks/build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Greg Thompson (https://github.com/thompsongl)",
+  "bin": {
+    "pantonr": "./bin/pantonr.js"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "stdin": "0.0.1"
+  },
+  "devDependencies": {
+    "ase-utils": "^0.1.1",
+    "chroma-js": "^1.1.1",
+    "lodash": "^3.10.1",
+    "mkdirp": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thompsongl/pantonr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thompsongl/pantonr/issues"
+  },
+  "homepage": "https://github.com/thompsongl/pantonr",
   "license": "MIT"
 }

@@ -1,4 +1,4 @@
-var pantone = require('./pantone.json');
+var pantone = require('./dist/pantone.json');
 
 var pantonr = function(code){
   var hasSuffix = /-c$|-u$/ig;
