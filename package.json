@@ -1,6 +1,6 @@
 {
   "name": "pantonr",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Convert PMS colors to other formats",
   "author": "Greg Thompson (https://github.com/thompsongl)",
   "main": "index.js",
